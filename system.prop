@@ -30,6 +30,9 @@ ro.sf.force_hwc_brightness=1
 # Disable MTE Async for system server
 persist.arm64.memtag.system_server=off
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Dolby Vision
 persist.sys.pixelprops.netflix=true
 
