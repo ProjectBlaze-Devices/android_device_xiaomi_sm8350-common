@@ -169,6 +169,9 @@ ro.crypto.volume.metadata.method=dm-default-key
 # Dalvik dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
+# Display
+ro.vendor.display.sensortype=2
+
 # DPM
 persist.vendor.dpm.feature=1
 persist.vendor.dpm.idletimer.mode=default
