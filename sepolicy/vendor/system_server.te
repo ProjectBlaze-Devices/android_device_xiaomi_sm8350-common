@@ -10,3 +10,6 @@ allowxperm system_server { apk_data_file system_data_file apex_system_server_dat
 allowxperm system_server { apk_data_file apk_tmp_file system_file }:file ioctl {
   FS_IOC_ENABLE_VERITY FS_IOC_MEASURE_VERITY
 };
+
+# Allow system_server to get App Zygote PGID
+allow system_server app_zygote:process getpgid;
