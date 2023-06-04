@@ -36,6 +36,9 @@ persist.sys.pixelprops.netflix=true
 # Feature flags
 persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Graphics
 debug.sf.enable_hwc_vds=1
 
