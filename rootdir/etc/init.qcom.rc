@@ -364,3 +364,6 @@ service citsensor-hal-1-1 /vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice
     user system
     group system input
     task_profiles ServiceCapacityLow
+
+on boot && property:persist.sys.usb.config=*
+    setprop sys.usb.config ${persist.sys.usb.config}
