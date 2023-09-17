@@ -168,6 +168,7 @@ ro.crypto.volume.metadata.method=dm-default-key
 
 # Dalvik dex2oat
 dalvik.vm.dex2oat64.enabled=true
+pm.dexopt.shared=quicken
 
 # Display
 ro.vendor.display.sensortype=2
