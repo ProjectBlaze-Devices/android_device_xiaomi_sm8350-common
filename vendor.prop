@@ -300,6 +300,7 @@ vendor.display.defer_fps_frame_count=2
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
+persist.vendor.sensors.debug.hal=0
 persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 
