@@ -314,6 +314,9 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     libmm-omxcore \
+    android.hardware.media.omx@1.0-impl \
+    android.hardware.media.omx@1.0-service \
+    libstagefright_omx.vendor \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
