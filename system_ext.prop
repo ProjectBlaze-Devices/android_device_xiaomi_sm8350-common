@@ -19,6 +19,10 @@ TapSlop=1px
 vendor.media.target_variant=_lahaina
 vendor.mm.enable.qcom_parser=16777215
 
+# EGL - Blobcache configuration
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
+
 # Telephony
 ro.telephony.sim_slots.count=2
 telephony.active_modems.max_count=2
