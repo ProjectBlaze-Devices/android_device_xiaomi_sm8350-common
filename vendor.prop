@@ -246,7 +246,6 @@ vendor.gralloc.disable_ubwc=0
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 media.stagefright.thumbnail.prefer_hw_codecs=true
-persist.mm.enable.prefetch=true
 
 # Multi-Gen LRU
 persist.device_config.mglru_native.lru_gen_config=all
