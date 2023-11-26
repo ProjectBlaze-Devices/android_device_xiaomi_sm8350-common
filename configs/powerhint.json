@@ -91,7 +91,6 @@
       "Path": "/sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "1075200",
         "844800"
       ],
       "ResetOnInit": true
@@ -339,12 +338,6 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 0,
-      "Value": "1075200"
-    },
-    {
-      "PowerHint": "INTERACTION",
-      "Node": "CPUBigPlusClusterMinFreq",
       "Duration": 0,
       "Value": "1075200"
     },
