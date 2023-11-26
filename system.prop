@@ -11,6 +11,7 @@ persist.vendor.btstack.enable.twsplussho=true
 persist.vendor.bt.a2dp.hal.implementation=true
 
 # Camera
+vendor.camera.aux.packagelist=com.android.camera,co.aospa.sense
 persist.vendor.camera.privapp.list=com.android.camera
 ro.com.google.lens.oem_camera_package=com.android.camera
 ro.miui.notch=1
