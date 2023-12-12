@@ -44,9 +44,6 @@ ro.apk_verity.mode=2
 # Graphics
 debug.sf.enable_hwc_vds=1
 
-# Keyguard
-persist.wm.enable_remote_keyguard_animation=0
-
 # LMK
 ro.config.low_ram=false
 
