@@ -43,6 +43,7 @@ persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 ro.apk_verity.mode=2
 
 # Graphics
+debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 
 # IMS
