@@ -12,10 +12,6 @@ persist.vendor.cne.feature=1
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 
-# Fling velocities
-ro.min.fling_velocity=160 
-ro.max.fling_velocity=20000
-
 # Log
 persist.log.tag.ACDB-LOADER=S
 persist.log.tag.CVP=S
